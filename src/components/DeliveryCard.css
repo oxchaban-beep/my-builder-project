@@ -1,0 +1,98 @@
+.delivery-card {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 14px;
+  background: var(--secondary-white);
+}
+
+.delivery-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.delivery-card-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.delivery-card-order-number {
+  color: var(--secondary-neutral-900);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.delivery-card-route {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.delivery-card-route-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.delivery-card-route-text {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  color: var(--secondary-neutral-500);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.delivery-card-date {
+  color: var(--secondary-neutral-300);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-left: auto;
+}
+
+.delivery-card-notifications {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.delivery-card-more-actions {
+  display: flex;
+  width: 100%;
+  padding: 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.delivery-card-more-actions:hover {
+  background: var(--secondary-neutral-50);
+  border-radius: 8px;
+}
+
+.more-actions-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--secondary-neutral-500);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
+}
