@@ -1,0 +1,52 @@
+.progress-tracker {
+  display: flex;
+  align-items: center;
+}
+
+.progress-stage-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.progress-stage {
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  transition: background-color 0.3s;
+}
+
+.progress-stage-done {
+  background: var(--system-success-500);
+  box-shadow: 0 1px 2px -1px rgba(16, 183, 127, 0.10), 0 1px 3px 0 rgba(16, 183, 127, 0.10);
+}
+
+.progress-stage-current {
+  background: var(--primary-blue-500);
+  box-shadow: 0 1px 2px -1px rgba(74, 144, 226, 0.10), 0 1px 3px 0 rgba(74, 144, 226, 0.10);
+}
+
+.progress-stage-pending {
+  background: var(--secondary-neutral-200);
+  box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.10), 0 1px 3px 0 rgba(0, 0, 0, 0.10);
+}
+
+.progress-stage-pending svg path {
+  stroke: var(--secondary-neutral-500);
+}
+
+.progress-track {
+  width: 30px;
+  height: 2px;
+  transition: background-color 0.3s;
+}
+
+.progress-track-done {
+  background: var(--system-success-border);
+}
+
+.progress-track-pending {
+  background: var(--secondary-neutral-200);
+}
