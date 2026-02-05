@@ -63,3 +63,22 @@
   background: var(--accent-blue-5);
   z-index: -1;
 }
+
+/* Responsive styles */
+@media (min-width: 769px) {
+  .bottom-nav {
+    padding: 0 32px;
+  }
+
+  .bottom-nav-tab span {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .bottom-nav {
+    max-width: 480px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

@@ -40,3 +40,27 @@
   color: var(--secondary-neutral-900);
   font-weight: 500;
 }
+
+/* Responsive styles */
+@media (min-width: 769px) {
+  .tabs {
+    padding: 12px 24px;
+    gap: 32px;
+  }
+
+  .tab {
+    padding: 10px 16px;
+  }
+
+  .tab span {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .tab:hover {
+    background: var(--secondary-neutral-50);
+    border-radius: 8px 8px 0 0;
+    transition: background-color 0.2s;
+  }
+}
