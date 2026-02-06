@@ -1,3 +1,5 @@
+import './ScreenMain.css';
+
 function ScreenMain() {
   return (
     <div className="screen-main">
