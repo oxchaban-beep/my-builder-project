@@ -1,68 +1,57 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  /* Colors */
+  --secondary-neutral-50: #F8FAFC;
+  --secondary-neutral-100: #F1F5F9;
+  --secondary-neutral-200: #E1E7EF;
+  --secondary-neutral-300: #94A3B8;
+  --secondary-neutral-500: #65758B;
+  --secondary-neutral-900: #132439;
+  --secondary-white: #FFF;
+  
+  --primary-blue-500: #4A90E2;
+  --primary-light: #E8F1FB;
+  --accent-blue-500: #0DA2E7;
+  --accent-blue-5: rgba(13, 162, 231, 0.05);
+  
+  --system-error-light: #FDEAEA;
+  --system-error-500: #EF4343;
+  --system-success-500: #0FA571;
+  --system-success-border: #BDE5D2;
+  --system-warning-light: #FFF4DB;
+  --system-warning-500: #F59F0A;
+  
+  /* Typography */
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  background-color: var(--secondary-neutral-50);
+  color: var(--secondary-neutral-900);
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  border: none;
+  outline: none;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
 }

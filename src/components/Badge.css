@@ -1,0 +1,45 @@
+.badge {
+  display: inline-flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.badge-default {
+  background: var(--primary-light);
+  color: var(--primary-blue-500);
+}
+
+.badge-critical {
+  background: var(--system-error-light);
+  color: var(--system-error-500);
+}
+
+.badge-warning {
+  background: var(--system-warning-light);
+  color: var(--system-warning-500);
+}
+
+.badge-count {
+  background: var(--primary-light);
+  color: var(--primary-blue-500);
+  border-radius: 100px;
+  min-width: 24px;
+  height: 19px;
+  padding: 2px;
+}
+
+.badge-more {
+  background: var(--system-warning-light);
+  color: var(--system-warning-500);
+  border-radius: 100px;
+  min-width: 28px;
+  padding: 2px 4px;
+  font-size: 10px;
+  line-height: 1.5;
+}
